@@ -49,6 +49,9 @@ dependencies:
   expo-web-browser:
     specifier: ~12.3.2
     version: 12.3.2(expo@49.0.21)
+  html-entities:
+    specifier: ^2.4.0
+    version: 2.4.0
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -6616,6 +6619,10 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       lru-cache: 6.0.0
+    dev: false
+
+  /html-entities@2.4.0:
+    resolution: {integrity: sha512-igBTJcNNNhvZFRtm8uA6xMY6xYleeDwn3PeBCkDz7tHttv4F2hsDI2aPgNERWzvRcNYHNT3ymRaQzllmXj4YsQ==}
     dev: false
 
   /http-errors@2.0.0:
